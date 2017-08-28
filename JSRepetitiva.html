@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScrip Ciclos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Carlos Ulises Ocampo Silva">
+        <meta name="keywords" content="JavaScript,condicionales JavaScript">
+        <link rel="stylesheet" href="EstilosCSS/Estilos.css">
+        <script type="text/javascript" src="JavaScript/Reloj.js"></script>
+        <script src="Javascript/Repetitivas.js"></script>
+        
+    </head>
+    <body onload="reloj(); animar()">
+        <header>
+       <div class="contenedor"> 
+                 <h1 class="icon-html5">Ciclos</h1>
+                 <input type="checkbox" id="menu-bar">
+                 <label class="icon-menu" for="menu-bar"></label>
+                   <div id ="displayReloj" > </div>
+                 <nav class="menu">
+                     
+                     <a href="index.html">Pagina Principal</a>
+                     <a href="JSInicio.html">Inicio</a>
+                     <a href="JSRepetitiva.html">Condicionales en java Script</a>
+                     <a href="Lau.html">Cadenas</a>
+                     
+                 </nav>
+             </div>
+        </header>
+        <main>
+            
+               <section id="banner2">
+                <img src="img/ciclos.jpg">
+          
+            </section>
+            
+            <section id="info_condicional">
+                    <h1>Ejemplos de ciclos/instrucciones repetitivas dentro del lenguaje de JavaScript</h1>
+                    <h2>condicion FOR</h2>
+                <form>
+                <article id="cajaAnimada">
+                    <TEXTAREA  NAME="OtroTexto" COLS="50" rows="10" onkeypress="return false" ></TEXTAREA>
+                </article>
+                </form>    
+            </section>
+            
+            <section class="contenedorForEjemplo">
+             <h1>Ejemplos de Intrucciones repetitivas dentro del lenguaje de JavaScript</h1>
+                    <h2>condicion FOR</h2>
+                  
+               <div>
+                   <p>Cuando un bucle for se ejecuta, ocurre lo siguiente:</p>
+
+                   <p>1.La expresión de inicialización expresionInicial, se ejecuta si esta existe. Esta expresión habitualmente inicializa uno o mas contadores del bucle, pero la sintaxis permite una expresión con cualquier grado de complejidad. Esta expresión puede también declarar variables.</p>
+                   <p>2.Se evalúa la expresión condicion. Si el valor de condicion es true, se ejecuta la sentencia del bucle. Si el valor de condicion es false, el bucle for finaliza. Si la expresión condicion es omitida, la condición es asumida como verdadera.</p>
+                   <p>3.Se ejecuta la sentencia. Para ejecutar múltiples sentencias, use un bloque de sentencias ({ ... }) para agruparlas.</p>
+                   <p>4.Se ejecuta la expresión expresionIncremento, si hay una, y el control vuelve al paso 2.</p>
+                   <br />
+                   <p>For (var = varlorInicial; var <= valorFinal; var = var+incremento){</p>
+                   <p>//código a ser ejecutado</p> 
+                   <p>}</p>
+                   <p>Ejemplo:</p>
+                         <p>var i=0}</p>
+                         <p>for (i=0;i<=5;i++)//Comienza desde 0,incrementa de 1 en 1 hasta que "i" valga 5 {</p>
+                         <p>document.write("El número es " + i)//se imprime cada pasada del for</p> 
+                         <p>document.write("<br />")//salto de linea</p>
+                        <p>Resultados:</p>
+                        <p>El número es 0</p>
+                        <p>El número es 1</p>
+                        <p>El número es 2</p>
+                        <p>El número es 3</p>
+                        <p>El número es 4</p>
+                        <p>El número es 5</p>
+               </div>
+                
+                
+              
+            </section >       
+            
+            <div  style="display: inline"> 
+                <h1>Intentelo usted mismo</h1>
+                <section class="contenedorFor">
+                    <span>
+                        <b>
+                            <p>var <input type="number" id="inicio">;</p>
+                             for (i;i<=<input type="number" id="numero">;i++){
+                             <p> document.write("El número es " + i +"< br />");</p>
+                             <p>}</p>
+
+                            <button onclick="condicionFor()" >Correr!!!</button>
+                        </b>
+                    </span>
+                </section>
+                <section class="contenedorForSalida">
+                    <span>
+                        <b>
+                            <p id="forSalida">
+                                Esto es una prueba
+                            </p>
+                        </b>
+                    </span>
+                </section>
+            </div>
+            
+            
+            <section class="contenedorForEjemplo">
+             <h1>Ejemplos de Intrucciones repetitivas dentro del lenguaje de JavaScript</h1>
+                    <h2>condicion While</h2>
+                  
+               <div>
+                   <p>do</p>
+                 <p>sentencia<p/>
+                 <p>while (condicion);</p>
+               </div>
+                
+                
+              
+            </section >       
+             
+           
+       
+             <section class="contenedorFor">
+                 <h1>Ejemplos de Intrucciones repetitivas dentro del lenguaje de JavaScript</h1>
+                    <h2>condicion while</h2>
+                 <div> 
+                    <b>
+                    <p>var i=0;</p>
+                     while(i<=<input type="number" id="numerowh">){
+                     <p> document.write("El número es " + i +"< br />");</p>
+                     <p>i=i+1;</p>
+                     <p>}</p>
+                         
+                   <button onclick="cicloWhile()" >Correr!!!</button>
+                  
+                    </b>
+                 </div>
+            </section>
+             <section class="contenedorForSalida">
+                    <span>
+                        <b>
+                            <p id="whileSalida">
+                                Esto es una prueba
+                            </p>
+                        </b>
+                    </span>
+                </section>
+            
+                 
+            <section class="contenedorForEjemplo">
+             <h1>Ejemplos de Intrucciones repetitivas dentro del lenguaje de JavaScript</h1>
+                    <h2>condicion do While</h2>
+                    <br />
+                  
+               <div>
+                   <p> sentencia do...while EDIT</p>
+                   <p>La sentencia do...while se repite hasta que una condición especificada se evalúa a false. Una sentencia do...while se mostrará como sigue:</p>
+                   
+                    <br />
+                   <p> do {//Hacer </p>
+                   <p> i += 1;//que i se incremente 1</p>
+                   <p>document.write(i);//imprimir valor que contiene la variable i </p>
+                   <p>} while (i < 5);//Mientras que i sea menor a 5</p>
+               </div>
+                
+                
+              
+            </section >       
+            
+               
+            <section class="contenedorFor">
+                <b>
+                    <p>var i=0;</p>
+                     do{
+                     <p>i++;</p>
+                     <p> document.write("El número es " + i +"< br />");</p>
+                     <p>}while(i<<input type="number" id="numeroDowh">)</p>
+                         
+                   <button onclick="cicloDoWhile()" >Correr!!!</button>
+                  
+                </b>
+            </section>
+          
+            
+        </main>
+        
+    </body>
+</html>
