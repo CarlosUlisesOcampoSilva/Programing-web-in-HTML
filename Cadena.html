@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Metodos de la clase S T R I N G </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="EstilosCSS/Estiloindex.css">
+        <script type="text/javascript" src="JavaScript/ArchivoJS.js"></script>
+</head>
+       <body id="cuerpo" onload="animar();BlinkIt ();reloj();">
+            <header> 
+                   <!--
+                   Boton que manda a imprimir la pantalla -->
+                <input type="button" 
+                       value=" Imprime esta pagina "
+                     onclick="window.print()"> 
+                    <!--
+                    creamos un div con un id 
+                    con este JS lo usara para hacer el efecto 
+                     -->
+                <div id="blink"><center>T U T O R I A L</center></div>             
+        <FORM>
+           <TEXTAREA  NAME="Texto" COLS="150" rows="9" onkeypress="return false"></TEXTAREA> 
+        </FORM>  
+                <b>En javascript las variables de tipo texto son objetos de la clase String. 
+                   Esto quiere decir que cada una de las variables que creamos de tipo texto 
+                   tienen una serie de propiedades y métodos. Recordamos que las propiedades 
+                   son las características, como por ejemplo longitud en caracteres del string 
+                   y los métodos son funcionalidades, como pueden ser extraer un substring o poner
+                   el texto en mayúsculas.</b>
+        <br>
+        <br>  
+                  <b> Para crear un objeto de la clase String lo único que hay que hacer es asignar un 
+                      texto a una variable. El texto va entre comillas ( " " ) , como ya hemos visto en los
+                      capítulos de sintaxis. También se puede crear un objeto string con el operador new.
+                      </b>  
+        <br>
+        <br>
+               <center><b> Existen varios metodos de la clase String</b></center>
+               <br>
+               <br>
+               <b> Uno de los metodos que maneja la clase String es el Metodo de COMPARACION
+                   este metodo lo que hace es recibir dos numeros y hacer el precodimiento de
+                   comparacion para saber si son numeros del mismo valor o direntes.</b> 
+     <br>
+     <center><div><TEXTAREA COLS="65" rows="1"> Clic en el siguiente B O T O N  para ver el ejemplo</TEXTAREA></div></center>
+     </header>
+     <br>
+     <input type="submit"value=" E J E M P L O "onclick="location='ComparaCadenas.html'"/> 
+     <br>
+     <b> Otro Metodo de esta clase String es  declaracion de variables mediante cadena</b>
+     <center><div><TEXTAREA COLS="65" rows="1"> Clic en el siguiente B O T O N  para ver el ejemplo</TEXTAREA></div></center>
+     <input type="submit"value=" E J E M P L O "onclick="location='UnionCadena.html'"/>
+                 <!--
+                   Ponemos un " V I N C U L O " y al pasar el raton encima las letras se hacen
+                   grandes... 
+                   Y al dar click sobre el vinculo nos manda un mensaje
+                 -->
+<div id="vinc"><a href="javascript:if (confirm ('sabias que.. La memoria es la inteligencia de los tontos '))
+                  {parent.location='https://www.youtube.com/watch?v=8hxpLTP49fk';};" 
+                   onmouseover="javascript:
+                   void(document.getElementById('vinc').style.fontSize='3em')" 
+                   onmouseout="javascript: 
+                   void(document.getElementById('vinc').style.fontSize='1em')">
+                  <center>Para mas imformacion entra aqui</center></div>
+    </body>
+</html>
