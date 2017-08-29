@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>JavaScrip condicionales</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Carlos Ulises Ocampo Silva">
+        <meta name="keywords" content="JavaScript,condicionales JavaScript">
+        <link rel="stylesheet" href="EstilosCSS/Estilos.css">
+        <script type="text/javascript" src="JavaScript/Reloj.js"></script>
+        <script src="JavaScript/Condicionales.js"></script>
+        
+    </head>
+    <body onload="reloj(); animarCondicion()">
+        <header>
+       <div class="contenedor"> 
+                 <h1 class="icon-html5">condicionales</h1>
+                 <input type="checkbox" id="menu-bar">
+                 <label class="icon-menu" for="menu-bar"></label>
+                   <div id ="displayReloj" > </div>
+                 <nav class="menu">
+                     
+                     <a href="index.html">Pagina Principal</a>
+                     <a href="JSInicio.html">Inicio</a>
+                     <a href="JSRepetitiva.html">Ciclos en java Script</a>
+                     <a href="lau.html">Cadenas</a>
+                     
+                 </nav>
+             </div>
+        </header>
+        <main>
+            
+               <section id="banner2">
+                <img src="img/condicionales.jpg">
+              
+            </section>
+            
+            <section>
+                    <h2>Ejemplos de condiciones dentro del lenguaje de JavaScript:</h1>
+                     <p>La instrucción if … else funciona de forma análoga 
+                        a como lo hace en otros lenguajes de programación. 
+                        Permite controlar qué procesos tienen lugar, típicamente 
+                        en función del valor de una o varias variables, de un valor de cálculo o booleano, 
+                        o de las decisiones del usuario. La sintaxis a emplear es:</p>
+                <form>
+                   
+                <article id="cajaAnimada">
+                    <TEXTAREA  NAME="OtroTexto" COLS="50" rows="10" onkeypress="return false" disabled=""></TEXTAREA>
+                </article>
+                </form>
+                    
+                   
+                    
+            </section>
+            <section class="contenedorIf"> 
+                 <h2>Intentelo usted mismo</h2>
+                    <p>Este es un ejemplo de condicion IF</p>
+                <b>
+                   
+                  numero <input type="number" id="numero" onkeyup="condicionIf()">
+                 <!--  <button onclick="condicionIf()" >Accion!!!</button> -->
+                 <TEXTAREA id="numero2" COLS="50" rows="10" onkeypress="return false" disabled="" ></TEXTAREA>
+                <br/>
+                </b>
+                <br/>
+                <div style="border: 2px solid #73AD21;">
+                    <br/>
+                    <p id="textoSalida">
+                        El resultado aparecera aquí
+                    </p>
+                    <br/>
+                </div>
+            </section>
+            
+                   
+             
+           <section class="contenedorIfEjemplo">
+               <div>
+                   <h1>Ejemplos de condiciones dentro del lenguaje de JavaScript</h1>
+                    <h2>condicion IF con NOT</h2>
+               </div>
+                  
+               <div>
+                     
+                         <p>if(!condicion1 >= 100) { //Si condicion1 no es igual o mayor a 100 entonces:</p>
+                         <p>alert('Es menor a 100');</p>  
+                         <p>}else{//si no</p>
+                         <p>alert('Es mayor a 100»');</p>
+                         <p>}</p> 
+                     
+               </div>
+             
+            </section>       
+            
+            <section class="contenedorIf">
+                <b>
+                    numero<input type="number" id="numeroNot" onkeyup="condicionIfNot()">
+                 <!--  <button onclick="condicionIfNot()" >Aceptar!!!</button> //ya no fue necesario -->
+                   <TEXTAREA id="numeroNot2" COLS="50" rows="10" onkeypress="return false" disabled="" ></TEXTAREA>
+                </b>
+                <div style="border: 2px solid #73AD21;">
+                    <br/>
+                    <p id="textoSalidaNot">
+                        El resultado aparecera aquí
+                    </p>
+                    <br/>
+                </div>
+                
+            </section>
+            
+             <section class="contenedorIfEjemplo">
+             <h1>Ejemplos de condiciones dentro del lenguaje de JavaScript</h1>
+                    <h2>condicion IF con AND</h2>
+                  
+               <div>
+                     
+                         <p> if((condicion1)&&(condicion2))  { //Si condicion1 y condicion2 se cumplen entonces:</p>
+                         <p>alert("Ambas condiciones se cumplen");</p>  
+                         <p>}else{//si una o ambas no se cumplen entonces </p>
+                         <p>alert("Una o ambas condiciones no se cumple");</p>
+                         <p>}</p> 
+                         <p>//Esta condicion solo se cumple cuando ambas condiciones se cumplen</p>
+            
+               </div>
+           
+            </section>   
+            
+             <section class="contenedorIf">
+                 <form>
+                <b>
+                    
+                    numero1<input type="number" id="numeroAND" onkeyup="condicionIfAND()">
+                    numero2<input type="number" id="numeroAND1" onkeyup="condicionIfAND()">
+                <!--  <button onclick="condicionIfAND()" >Aceptar!!!</button>//ya no es necesario -->
+                  <TEXTAREA  id="numeroAND2" COLS="50" rows="10" onkeypress="return false" disabled="" ></TEXTAREA>
+                </b>
+                 </form>
+                 <div style="border: 2px solid #73AD21;">
+                    <br/>
+                    <p id="textoSalidaAND">
+                        El resultado aparecera aquí
+                    </p>
+                    <br/>
+                </div>
+                 
+            </section>
+            
+            <section class="contenedorIfEjemplo">
+             <h1>Ejemplos de condiciones dentro del lenguaje de JavaScript</h1>
+                    <h2>condicion IF con OR</h2>
+                  
+               <div>
+                     
+                         <p>if((condicion1)||(condicion2))  { //Si condicion1 o condicion2 se cumple entonces:</p>
+                         <p>alert("una o las dos condiciones se cumplen");</p>  
+                         <p>}else{//si no</p>
+                         <p>alert("Ninguna de las dos condiciones se cumple");</p>
+                         <p>}</p> 
+                         <p>//Esta condicion se cumple cuando una o ambas condiciones se cumplen</p>
+            
+               </div>
+           
+            </section>
+            
+             <section class="contenedorIf">
+                <b>
+                    numero1<input type="number" id="numeroOR" onkeyup="condicionIfOR()">
+                    numero2<input type="number" id="numeroOR1" onkeyup="condicionIfOR()">
+                 <!--  <button onclick="condicionIfOR()" >Aceptar!!!</button> // ya no es neceario -->
+                 <TEXTAREA  id="numeroOR2" COLS="50" rows="10" onkeypress="return false" disabled=""></TEXTAREA>
+                </b>
+                <div style="border: 2px solid #73AD21;">
+                    <br/>
+                    <p id="textoSalidaOR">
+                        El resultado aparecera aquí
+                    </p>
+                    <br/>
+                </div>
+                
+            </section>
+            
+            
+             <section class="contenedorIfEjemplo">
+             <h1>Ejemplos de condiciones dentro del lenguaje de JavaScript</h1>
+                    <h2>condicion SWITCH</h2>
+                  
+               <div>
+                   <p>La instrucción switch es una forma de expresión de un anidamiento múltiple de instrucciones 
+                       if ... else. Su uso no puede considerarse, por tanto, estrictamente necesario, 
+                       puesto que siempre podrá ser sustituida por el uso de if. No obstante, a veces resulta útil 
+                       al introducir eficiencia y mayor claridad en el código.</p> 
+                   <P>var diaSemana;  </P> 
+                   <P>switch (diaSemana){  </P>
+                   <P>case 1: </P>
+                   <P>alert("lunes"); </P>
+                   <P>break; </P>
+                   <P>case 2: </P>
+                   <P>alert("Martes"); </P>
+                   <P>break; </P>
+                   <P> case 3:</P>
+                   <P>alert("Miercoles"); </P>
+                   <P>break; </P>
+                   <P>case 4: </P>
+                   <P>alert("Jueves"); </P>
+                   <P>break; </P>
+                   <P>case 5: </P>
+                   <P>alert("Viernes"); </P>  
+                   <P> case 6: </P>
+                   <P>alert("sabado"); </P>
+                   <P>break; </P>
+                   <P>alert("Domingo"); </P>
+                   <P>break; </P>
+                   <P> default alert("Vuelva a intentar"); break;</P>
+                   <p>}</p>
+               </div>
+                   
+            </section>  
+            
+            <section class="contenedorIf">
+                <b>
+                    numero<input type="number" id="diaSemana" onkeyup="CondicionSwitch()">
+                 <!--  <button onclick="CondicionSwitch()" >Aceptar!!!</button>//ya no es necesario -->
+                   <TEXTAREA id="diaSemana2" COLS="70" rows="26" onkeypress="return false" disabled=""></TEXTAREA>
+                </b>
+                <div style="border: 2px solid #73AD21;">
+                    <br/>
+                    <p id="textoSalidaSwitch">
+                        El resultado aparecera aquí
+                    </p>
+                    <br/>
+                </div>
+                
+            </section>
+            
+        </main>
+        
+    </body>
+</html>
