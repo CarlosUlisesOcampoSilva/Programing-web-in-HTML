@@ -1,0 +1,59 @@
+body
+{
+    margin: 0; /*Quitamos los margenes que dan por defecto*/
+    padding: 0;/*Quitamos los margenes que dan por defecto */
+    background-color: #ffff00;/*Color de pagina*/
+    background: #ff0000;
+    color: #993300;
+   /* background-size: 100%;*/
+   
+    height: 2000px;
+    width: 1100px;/*
+    border: 1px solid #fff;*/
+    margin: 0 auto;
+    border-radius: 10px;
+}
+#cuerpo{
+    
+    background-color: #cc9966;
+}
+
+
+/*Marco*/
+ul{
+    list-style: none;
+    padding-left: 10px;   
+}
+form{
+    margin: auto;
+   /* width: 30%;//la anchura de un elemento*/
+    max-width: 300px;//establecer la anchura máxima de un elemento.
+    margin-top: 200px;// lo separado
+    border-radius: 15px;//Añadir bordes redondeados a un elemento 
+    padding: 50px;//establecer el relleno para cada lado de un elemento (arriba, derecha, abajo, e izquierda).
+    opacity: 0.8;//nivel de transparencia
+    background-color: rgb(120,150,180);
+}
+
+boton
+{
+    font-family: Arial;
+    text-align: center;
+    margin-bottom: 5px;
+    color: rgba(0,0,0,0.9);
+}
+input{
+    margin: 20px auto;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;
+} 
+input[type="submit"]:active{/*Momento en que se hace clik*/
+    transform: scale(0.95);
+    cursor: progress;/*aparece el cursor como cargando*/
+}
+
+
+
