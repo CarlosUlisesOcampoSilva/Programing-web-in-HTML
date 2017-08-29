@@ -1,0 +1,15 @@
+.contenedorForEjemplo{
+    
+    background: #333;
+    color: #fff;
+    
+}
+
+.contenedorForSalida{
+    width: 40%;
+   
+    text-align: center;
+    background: #cc9966;
+    transform: translateX(100%);
+ 
+}
