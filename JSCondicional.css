@@ -1,0 +1,25 @@
+.contenedorIfEjemplo{
+    background: #333;
+    color:#fff;    
+}
+
+.contenedorIfEjemplo h1{
+    font-size: 23px;
+    text-align: center;
+
+ 
+}
+
+.contenedorIfEjemplo h2{
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+    
+}
+
+.contenedorIfEjemplo p{
+    font-size: 15px;
+    text-align: left;
+    
+    
+}
