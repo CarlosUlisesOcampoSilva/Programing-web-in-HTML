@@ -10,6 +10,9 @@ En el JSInicio.html tendremos 4 opciones:
 la primera que nos regresara a la pagina principal que es la index.html
 la segunda opcion nos dirige a un html llamado cadena.html la cual nos mostrara metodos String con JS, 
 --este html hace uso de un JS CadenaJS.js el cual se encargara de animar el html cadena
+---El html tiene dos opciones los cuales te dirigen a otos HTML estos son:
+----ComparacionCadenas.html utiliza el JS-> ComparaCadena.js
+----UnionCadenas.html utiliza el JS->UnionCadena.js
 
 
 
