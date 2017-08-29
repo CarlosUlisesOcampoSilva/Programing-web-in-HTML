@@ -1,0 +1,57 @@
+#displayReloj{
+    float: right;
+    width: 100px;
+    height: 10px;
+    text-align:center;
+    color: #ffffff;/*
+    border: 1px solid #fff;*/
+    font-family: verdana, arial;
+    font-size:30px;
+    padding:10px;
+    margin-right: 90px;
+    
+}
+#cajaAnimada textarea {
+     display: table;
+   border-color: #333;
+   color: #fff;
+   background: rgba(51,51,51,0.9);
+    width: 100%;
+   font-size: 25px;
+   text-decoration: none;
+    
+}
+
+#cajaAnimada2 textarea {
+  display: table;
+   border-color: #000000;
+   color: #fff;
+   background: rgba(51,51,51,0.9);
+   width: 100%;
+   font-size: 25px;
+   text-decoration: none;
+    
+}
+
+#cajaAnimada3 textarea {
+    display: table;
+   border-color: #333;
+   color: #fff;
+   background: rgba(51,51,51,0.9);
+    width: 100%;
+   font-size: 25px;
+   text-decoration: none;
+    
+}
+
+/* Para la condicion if con not*/
+#cajaAnimada4 textarea {
+    display: table;
+   border-color: #333;
+   color: #fff;
+   background: rgba(51,51,51,0.9);
+    width: 100%;
+   font-size: 25px;
+   text-decoration: none;
+    
+}
