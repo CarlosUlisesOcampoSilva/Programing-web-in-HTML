@@ -19,7 +19,7 @@ la segunda opcion nos dirige a un html llamado cadena.html la cual nos mostrara 
 ----ComparacionCadenas.html utiliza el JS-> ComparaCadena.js<br />
 ----UnionCadenas.html utiliza el JS->UnionCadena.js<br />
 
-#JSCondional<br />
+#JSCondional.html<br />
 La tercera opcion nos dirige  un html llamado JSCondicional.html la cual nos mostrara concionales de JS apoyada en un js llamado:Condicionales.js la cual se encargara precisamente para hacer funcionar las condiciones visualizadas en el JSCondicional.html
 
 
